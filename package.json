@@ -1,0 +1,16 @@
+{
+  "name": "faclon-sensor-backend",
+  "version": "1.0.0",
+  "description": "Node.js backend for IoT sensor ingestion and retrieval using Express and MongoDB Atlas.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "mqtt": "node mqttSubscriber.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.0",
+    "mqtt": "^5.0.0"
+  }
+}
